@@ -1,4 +1,4 @@
-# mnsh1
+# I AM Rich
 
 A new Flutter application.
 
