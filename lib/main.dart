@@ -6,6 +6,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
+        
         appBar: AppBar(
           title: Center(child: Text('I Am Ultra Rich')),
           backgroundColor: Colors.blueGrey[900],
@@ -15,6 +16,13 @@ void main() {
             image: AssetImage('images/diamond.png'),
           ),
         ),
+      floatingActionButton: FloatingActionButton(
+      onPressed: () {
+        // Add your onPressed code here!
+      },
+      child: Icon(Icons.navigation),
+      backgroundColor: Colors.green,
+    ),
       ),
     ),
   );
